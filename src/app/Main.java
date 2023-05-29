@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Enter second number: ");
         double secondNum = scanner.nextDouble();
 
+        System.out.println(subtract(firstNum, secondNum));
     }
 
     public static double add(double a, double b) {
@@ -19,5 +20,9 @@ public class Main {
 
     public static double multiply(double a, double b) {
         return a * b;
+    }
+
+    public static double subtract(double a, double b) {
+        return a - b;
     }
 }
